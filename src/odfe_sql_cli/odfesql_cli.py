@@ -122,7 +122,7 @@ class OdfeSqlCli:
         print("Server: Open Distro for ES %s" % self.es_executor.es_version)
         print("CLI Version: %s" % __version__)
         print("Endpoint: %s" % self.es_executor.endpoint)
-        print("Query Language: %s", self.query_language)
+        print("Query Language: %s" % self.query_language)
 
         while True:
             try:
